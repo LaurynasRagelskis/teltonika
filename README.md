@@ -1,5 +1,7 @@
 # Teltonika
-Todo list API on Lumen mickroframework
+
+Todo list API on Lumen microframework
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
