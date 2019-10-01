@@ -57,6 +57,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                <li><a href="#start">Start using</a></li>
             </ul>
             <ul class="nav nav-sidebar">
                 <li><a href="#support">Support actions</a></li>
@@ -71,19 +72,19 @@
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <h4>Support</h4>
+                    <h4><a href="#support">Support</a></h4>
                     <span class="text-muted">Actions for API using</span>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <h4>Users</h4>
+                    <h4><a href="#users">Users</a></h4>
                     <span class="text-muted">Actions for users maintaining</span>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <h4>Todos</h4>
+                    <h4><a href="#todos">Todos</a></h4>
                     <span class="text-muted">Actions for todo list maintaining</span>
                 </div>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <h4>Log</h4>
+                    <h4><a href="#log">Log</a></h4>
                     <span class="text-muted">Action for log maintaining</span>
                 </div>
             </div>
@@ -108,7 +109,7 @@
                 </div>
             </div>
 
-            <h2 class="sub-header">Start using</h2>
+            <h2 id="start" class="sub-header">Start using</h2>
             <div class="row">
                 <div class="col-sm-6">
                     <p>

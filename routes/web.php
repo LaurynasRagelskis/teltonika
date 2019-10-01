@@ -4,12 +4,14 @@ $router->get('/', 'SiteController@index');
 // API route group
 $router->group(['prefix' => 'api'], function () use ($router) {
 
+    $router->get('/', 'SiteController@api');
+
+    // Support actions
     $router->post('register', 'AuthController@register');
     $router->post('login', 'AuthController@login');
     $router->post('password/request', 'AuthController@requestNewPassword');
     $router->get('password/request/{token}', 'AuthController@newPasswordForm');
     $router->post('password/request/{token}', 'AuthController@resetPassword');
-
 
     // Actions with users
     $router->get('profile', 'UserController@profile');
